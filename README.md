@@ -4,13 +4,13 @@ An end-to-end machine learning project to predict customer churn and optimize re
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 Customer churn is a major challenge for subscription-based businesses.  
 The objective of this project is to predict whether a customer is likely to churn and **prioritize recall** to minimize customer loss.
 
 ---
 
-## 🧠 Key Insights from EDA
+##  Key Insights from EDA
 - Customers with **short tenure** churn significantly more
 - **Higher monthly charges** are associated with higher churn
 - **Month-to-month contracts** have the highest churn rate
@@ -19,7 +19,7 @@ The objective of this project is to predict whether a customer is likely to chur
 
 ---
 
-## 🛠️ Feature Engineering
+##  Feature Engineering
 - Converted `TotalCharges` to numeric and handled missing values
 - Dropped non-informative `customerID`
 - One-hot encoded categorical features
@@ -29,7 +29,7 @@ The objective of this project is to predict whether a customer is likely to chur
 
 ---
 
-## 🤖 Modeling Approach
+##  Modeling Approach
 
 ### Logistic Regression (Baseline)
 - Used as an interpretable baseline model
@@ -48,7 +48,7 @@ Final threshold chosen: **0.4**
 
 ---
 
-## 🌳 Model Comparison
+##  Model Comparison
 A Random Forest model was trained to capture non-linear interactions.
 
 **Result:**
@@ -58,13 +58,13 @@ A Random Forest model was trained to capture non-linear interactions.
 
 ---
 
-## 📈 Final Conclusion
+##  Final Conclusion
 This project demonstrates that model success depends on **business objectives**, not just accuracy.  
 By tuning the decision threshold and prioritizing recall, a simpler Logistic Regression model outperformed a more complex model for churn prediction.
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 - Python
 - Pandas, NumPy
 - Matplotlib, Seaborn
@@ -73,14 +73,14 @@ By tuning the decision threshold and prioritizing recall, a simpler Logistic Reg
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 - Cost-sensitive learning
 - Gradient Boosting (XGBoost / LightGBM)
 - Deployment with Streamlit or FastAPI
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 Customer_Churn_Prediction/
 ├── Data/
 ├── Notebooks/
